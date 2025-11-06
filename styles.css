@@ -1,0 +1,39 @@
+*{
+    font-family: Montserrat
+}
+    body{
+    background-color :f0f0f0;
+    font-family: Arial, sans-sefif;
+    line-height: 1.7;
+}
+
+.bg-primary{
+    background-color:#9550a2!important;
+}
+
+
+img{
+    foto-ovalada {
+        background: white;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+}
+.bg-secondary{
+    background-color:#f0f0f0!important;
+}
+.progress{
+    background-color: rgba(250, 255, 255,0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+/*estilos de las cards*/
+.card{
+    transition: transform 0.3s ease, box shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
